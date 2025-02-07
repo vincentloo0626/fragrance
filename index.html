@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精油功效查询</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>精油功效查询</h1>
+    </header>
+    <main>
+        <section id="symptoms">
+            <h2>根据症状查询</h2>
+            <input type="text" id="search" placeholder="输入症状...">
+            <p>常见症状: 保湿, 抗皱, 消炎</p>
+            <ul id="results"></ul>
+        </section>
+        <button id="toggle-list">显示精油列表</button>
+        <section id="oils" style="display: none;">
+            <h2>精油列表</h2>
+            <ul id="oil-list">
+                <!-- 精油列表将由JavaScript填充 -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
